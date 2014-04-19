@@ -11,6 +11,10 @@
 		A9C776A719022C3C006D4756 /* mlb.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C776A619022C3C006D4756 /* mlb.json */; };
 		A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A9190232F6006D4756 /* ASTDivision.m */; };
 		A9C776AD190237B5006D4756 /* ASTTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776AC190237B5006D4756 /* ASTTeam.m */; };
+		A9C776B01902397E006D4756 /* ASTBaseballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776AF1902397E006D4756 /* ASTBaseballViewController.m */; };
+		A9C776B319023A15006D4756 /* ASTLeagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776B219023A15006D4756 /* ASTLeagueViewController.m */; };
+		A9C776B619023B31006D4756 /* ASTTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776B519023B31006D4756 /* ASTTeamViewController.m */; };
+		A9C776B9190240CB006D4756 /* ASTEmbedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776B8190240CB006D4756 /* ASTEmbedSegue.m */; };
 		A9CF974F190220C900C51AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CF974E190220C900C51AC0 /* Foundation.framework */; };
 		A9CF9751190220C900C51AC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CF9750190220C900C51AC0 /* CoreGraphics.framework */; };
 		A9CF9753190220C900C51AC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CF9752190220C900C51AC0 /* UIKit.framework */; };
@@ -46,6 +50,14 @@
 		A9C776A9190232F6006D4756 /* ASTDivision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTDivision.m; sourceTree = "<group>"; };
 		A9C776AB190237B5006D4756 /* ASTTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTTeam.h; sourceTree = "<group>"; };
 		A9C776AC190237B5006D4756 /* ASTTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTTeam.m; sourceTree = "<group>"; };
+		A9C776AE1902397E006D4756 /* ASTBaseballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTBaseballViewController.h; sourceTree = "<group>"; };
+		A9C776AF1902397E006D4756 /* ASTBaseballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTBaseballViewController.m; sourceTree = "<group>"; };
+		A9C776B119023A15006D4756 /* ASTLeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTLeagueViewController.h; sourceTree = "<group>"; };
+		A9C776B219023A15006D4756 /* ASTLeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTLeagueViewController.m; sourceTree = "<group>"; };
+		A9C776B419023B31006D4756 /* ASTTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTTeamViewController.h; sourceTree = "<group>"; };
+		A9C776B519023B31006D4756 /* ASTTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTTeamViewController.m; sourceTree = "<group>"; };
+		A9C776B7190240CB006D4756 /* ASTEmbedSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTEmbedSegue.h; sourceTree = "<group>"; };
+		A9C776B8190240CB006D4756 /* ASTEmbedSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTEmbedSegue.m; sourceTree = "<group>"; };
 		A9CF974B190220C900C51AC0 /* TransitionCoordinatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionCoordinatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CF974E190220C900C51AC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9CF9750190220C900C51AC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +162,8 @@
 				A9C776A519022C2A006D4756 /* Resources */,
 				A9CF975D190220C900C51AC0 /* ASTAppDelegate.h */,
 				A9CF975E190220C900C51AC0 /* ASTAppDelegate.m */,
+				A9C776B7190240CB006D4756 /* ASTEmbedSegue.h */,
+				A9C776B8190240CB006D4756 /* ASTEmbedSegue.m */,
 				A9CF9760190220C900C51AC0 /* Main.storyboard */,
 				A9CF9769190220C900C51AC0 /* Images.xcassets */,
 				A9CF9755190220C900C51AC0 /* Supporting Files */,
@@ -189,6 +203,12 @@
 		A9CF97861902210400C51AC0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A9C776AE1902397E006D4756 /* ASTBaseballViewController.h */,
+				A9C776AF1902397E006D4756 /* ASTBaseballViewController.m */,
+				A9C776B119023A15006D4756 /* ASTLeagueViewController.h */,
+				A9C776B219023A15006D4756 /* ASTLeagueViewController.m */,
+				A9C776B419023B31006D4756 /* ASTTeamViewController.h */,
+				A9C776B519023B31006D4756 /* ASTTeamViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -309,7 +329,11 @@
 			files = (
 				A9CF975B190220C900C51AC0 /* main.m in Sources */,
 				A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */,
+				A9C776B619023B31006D4756 /* ASTTeamViewController.m in Sources */,
+				A9C776B01902397E006D4756 /* ASTBaseballViewController.m in Sources */,
 				A9CF975F190220C900C51AC0 /* ASTAppDelegate.m in Sources */,
+				A9C776B9190240CB006D4756 /* ASTEmbedSegue.m in Sources */,
+				A9C776B319023A15006D4756 /* ASTLeagueViewController.m in Sources */,
 				A9C776AD190237B5006D4756 /* ASTTeam.m in Sources */,
 				A9CF978D1902225F00C51AC0 /* ASTModel.m in Sources */,
 				A9CF978A1902212700C51AC0 /* ASTLeague.m in Sources */,
