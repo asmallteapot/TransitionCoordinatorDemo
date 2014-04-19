@@ -10,8 +10,6 @@
 		A945366319024A200016A05D /* ASTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366219024A200016A05D /* ASTNavigationController.m */; };
 		A945366619024A8F0016A05D /* UIColor+ASTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */; };
 		A945366C19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */; };
-		A945366E19024DE90016A05D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A945366D19024DE90016A05D /* README.md */; };
-		A945367019024E7F0016A05D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A945366F19024E7F0016A05D /* LICENSE */; };
 		A9C776A419022601006D4756 /* NSDictionary+ASTTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */; };
 		A9C776A719022C3C006D4756 /* mlb.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C776A619022C3C006D4756 /* mlb.json */; };
 		A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A9190232F6006D4756 /* ASTDivision.m */; };
@@ -55,7 +53,7 @@
 		A945366A19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ASTBackButtonItem.h"; sourceTree = "<group>"; };
 		A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ASTBackButtonItem.m"; sourceTree = "<group>"; };
 		A945366D19024DE90016A05D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A945366F19024E7F0016A05D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../WikiLyrics/LICENSE; sourceTree = "<group>"; };
+		A945366F19024E7F0016A05D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9C776A219022601006D4756 /* NSDictionary+ASTTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ASTTranslation.h"; sourceTree = "<group>"; };
 		A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ASTTranslation.m"; sourceTree = "<group>"; };
 		A9C776A619022C3C006D4756 /* mlb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mlb.json; sourceTree = "<group>"; };
@@ -326,10 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A945367019024E7F0016A05D /* LICENSE in Resources */,
 				A9CF976A190220C900C51AC0 /* Images.xcassets in Resources */,
 				A9CF9759190220C900C51AC0 /* InfoPlist.strings in Resources */,
-				A945366E19024DE90016A05D /* README.md in Resources */,
 				A9CF9762190220C900C51AC0 /* Main.storyboard in Resources */,
 				A9C776A719022C3C006D4756 /* mlb.json in Resources */,
 			);
