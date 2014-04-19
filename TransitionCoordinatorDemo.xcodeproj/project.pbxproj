@@ -10,6 +10,8 @@
 		A945366319024A200016A05D /* ASTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366219024A200016A05D /* ASTNavigationController.m */; };
 		A945366619024A8F0016A05D /* UIColor+ASTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */; };
 		A945366C19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */; };
+		A945366E19024DE90016A05D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A945366D19024DE90016A05D /* README.md */; };
+		A945367019024E7F0016A05D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A945366F19024E7F0016A05D /* LICENSE */; };
 		A9C776A419022601006D4756 /* NSDictionary+ASTTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */; };
 		A9C776A719022C3C006D4756 /* mlb.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C776A619022C3C006D4756 /* mlb.json */; };
 		A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A9190232F6006D4756 /* ASTDivision.m */; };
@@ -52,6 +54,8 @@
 		A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ASTNavigation.m"; sourceTree = "<group>"; };
 		A945366A19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ASTBackButtonItem.h"; sourceTree = "<group>"; };
 		A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ASTBackButtonItem.m"; sourceTree = "<group>"; };
+		A945366D19024DE90016A05D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A945366F19024E7F0016A05D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../WikiLyrics/LICENSE; sourceTree = "<group>"; };
 		A9C776A219022601006D4756 /* NSDictionary+ASTTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ASTTranslation.h"; sourceTree = "<group>"; };
 		A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ASTTranslation.m"; sourceTree = "<group>"; };
 		A9C776A619022C3C006D4756 /* mlb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mlb.json; sourceTree = "<group>"; };
@@ -78,7 +82,7 @@
 		A9CF975D190220C900C51AC0 /* ASTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTAppDelegate.h; sourceTree = "<group>"; };
 		A9CF975E190220C900C51AC0 /* ASTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTAppDelegate.m; sourceTree = "<group>"; };
 		A9CF9761190220C900C51AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9CF9769190220C900C51AC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9CF9769190220C900C51AC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		A9CF976F190220CA00C51AC0 /* TransitionCoordinatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionCoordinatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CF9770190220CA00C51AC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A9CF9778190220CA00C51AC0 /* TransitionCoordinatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionCoordinatorDemoTests-Info.plist"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		A9C776A519022C2A006D4756 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A9CF9760190220C900C51AC0 /* Main.storyboard */,
+				A9CF9769190220C900C51AC0 /* Images.xcassets */,
 				A9C776A619022C3C006D4756 /* mlb.json */,
 			);
 			path = Resources;
@@ -169,6 +175,7 @@
 		A9CF9754190220C900C51AC0 /* TransitionCoordinatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9CF9755190220C900C51AC0 /* Supporting Files */,
 				A9C776A1190225D8006D4756 /* Categories */,
 				A9CF97861902210400C51AC0 /* Controllers */,
 				A9CF97871902210400C51AC0 /* Models */,
@@ -177,9 +184,8 @@
 				A9CF975E190220C900C51AC0 /* ASTAppDelegate.m */,
 				A9C776B7190240CB006D4756 /* ASTEmbedSegue.h */,
 				A9C776B8190240CB006D4756 /* ASTEmbedSegue.m */,
-				A9CF9760190220C900C51AC0 /* Main.storyboard */,
-				A9CF9769190220C900C51AC0 /* Images.xcassets */,
-				A9CF9755190220C900C51AC0 /* Supporting Files */,
+				A945366D19024DE90016A05D /* README.md */,
+				A945366F19024E7F0016A05D /* LICENSE */,
 			);
 			path = TransitionCoordinatorDemo;
 			sourceTree = "<group>";
@@ -320,8 +326,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A945367019024E7F0016A05D /* LICENSE in Resources */,
 				A9CF976A190220C900C51AC0 /* Images.xcassets in Resources */,
 				A9CF9759190220C900C51AC0 /* InfoPlist.strings in Resources */,
+				A945366E19024DE90016A05D /* README.md in Resources */,
 				A9CF9762190220C900C51AC0 /* Main.storyboard in Resources */,
 				A9C776A719022C3C006D4756 /* mlb.json in Resources */,
 			);
@@ -392,6 +400,7 @@
 				A9CF9761190220C900C51AC0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A9CF9779190220CA00C51AC0 /* InfoPlist.strings */ = {
