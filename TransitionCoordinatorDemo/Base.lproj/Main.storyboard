@@ -7,8 +7,8 @@
         <!--Navigation Controller-->
         <scene sceneID="KDj-4n-BMa">
             <objects>
-                <navigationController storyboardIdentifier="RootNavigation" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fdz-V9-oxY" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kYf-yy-eXn">
+                <navigationController storyboardIdentifier="RootNavigation" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fdz-V9-oxY" customClass="ASTNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="kYf-yy-eXn">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

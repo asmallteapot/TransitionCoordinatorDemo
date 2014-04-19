@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A945366319024A200016A05D /* ASTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366219024A200016A05D /* ASTNavigationController.m */; };
+		A945366619024A8F0016A05D /* UIColor+ASTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */; };
+		A945366C19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */; };
 		A9C776A419022601006D4756 /* NSDictionary+ASTTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */; };
 		A9C776A719022C3C006D4756 /* mlb.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C776A619022C3C006D4756 /* mlb.json */; };
 		A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C776A9190232F6006D4756 /* ASTDivision.m */; };
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A945366119024A200016A05D /* ASTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTNavigationController.h; sourceTree = "<group>"; };
+		A945366219024A200016A05D /* ASTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTNavigationController.m; sourceTree = "<group>"; };
+		A945366419024A8F0016A05D /* UIColor+ASTNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ASTNavigation.h"; sourceTree = "<group>"; };
+		A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ASTNavigation.m"; sourceTree = "<group>"; };
+		A945366A19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ASTBackButtonItem.h"; sourceTree = "<group>"; };
+		A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ASTBackButtonItem.m"; sourceTree = "<group>"; };
 		A9C776A219022601006D4756 /* NSDictionary+ASTTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ASTTranslation.h"; sourceTree = "<group>"; };
 		A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ASTTranslation.m"; sourceTree = "<group>"; };
 		A9C776A619022C3C006D4756 /* mlb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mlb.json; sourceTree = "<group>"; };
@@ -110,6 +119,10 @@
 			children = (
 				A9C776A219022601006D4756 /* NSDictionary+ASTTranslation.h */,
 				A9C776A319022601006D4756 /* NSDictionary+ASTTranslation.m */,
+				A945366A19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.h */,
+				A945366B19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m */,
+				A945366419024A8F0016A05D /* UIColor+ASTNavigation.h */,
+				A945366519024A8F0016A05D /* UIColor+ASTNavigation.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -207,6 +220,8 @@
 				A9C776AF1902397E006D4756 /* ASTBaseballViewController.m */,
 				A9C776B119023A15006D4756 /* ASTLeagueViewController.h */,
 				A9C776B219023A15006D4756 /* ASTLeagueViewController.m */,
+				A945366119024A200016A05D /* ASTNavigationController.h */,
+				A945366219024A200016A05D /* ASTNavigationController.m */,
 				A9C776B419023B31006D4756 /* ASTTeamViewController.h */,
 				A9C776B519023B31006D4756 /* ASTTeamViewController.m */,
 			);
@@ -327,8 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A945366319024A200016A05D /* ASTNavigationController.m in Sources */,
 				A9CF975B190220C900C51AC0 /* main.m in Sources */,
 				A9C776AA190232F6006D4756 /* ASTDivision.m in Sources */,
+				A945366C19024C060016A05D /* UIBarButtonItem+ASTBackButtonItem.m in Sources */,
 				A9C776B619023B31006D4756 /* ASTTeamViewController.m in Sources */,
 				A9C776B01902397E006D4756 /* ASTBaseballViewController.m in Sources */,
 				A9CF975F190220C900C51AC0 /* ASTAppDelegate.m in Sources */,
@@ -336,6 +353,7 @@
 				A9C776B319023A15006D4756 /* ASTLeagueViewController.m in Sources */,
 				A9C776AD190237B5006D4756 /* ASTTeam.m in Sources */,
 				A9CF978D1902225F00C51AC0 /* ASTModel.m in Sources */,
+				A945366619024A8F0016A05D /* UIColor+ASTNavigation.m in Sources */,
 				A9CF978A1902212700C51AC0 /* ASTLeague.m in Sources */,
 				A9C776A419022601006D4756 /* NSDictionary+ASTTranslation.m in Sources */,
 			);

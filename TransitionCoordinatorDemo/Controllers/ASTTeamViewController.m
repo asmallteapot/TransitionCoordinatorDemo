@@ -7,6 +7,8 @@
 //
 
 #import "ASTTeamViewController.h"
+
+#import "UIColor+ASTNavigation.h"
 #import "ASTTeam.h"
 
 
@@ -32,12 +34,45 @@
 }
 
 
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+
+	[[self transitionCoordinator] animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+		UINavigationBar *navigationBar = self.navigationController.navigationBar;
+		navigationBar.barTintColor = self.team.color;
+		navigationBar.tintColor = [self.team.color navigationTextColor];
+		navigationBar.titleTextAttributes = @{
+			NSForegroundColorAttributeName: [self.team.color navigationTextColor],
+		};
+		[self setNeedsStatusBarAppearanceUpdate];
+	} completion:NULL];
+}
+
+
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+
+	[[self transitionCoordinator] animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+		UINavigationBar *navigationBar = self.navigationController.navigationBar;
+		navigationBar.barTintColor = nil;
+		navigationBar.tintColor = nil;
+		navigationBar.titleTextAttributes = nil;
+	} completion:NULL];
+}
+
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+	return [self.team.color preferredStatusBarStyle];
+}
+
+
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
 }
 
 
+#pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 	// Get the new view controller using [segue destinationViewController].
 	// Pass the selected object to the new view controller.
