@@ -1,0 +1,202 @@
+{
+	"leagues": [
+		{
+			"name": "American League",
+			"url": "http://en.wikipedia.org/wiki/American_League",
+			"divisions": [
+				{
+					"name": "West",
+					"url": "http://en.wikipedia.org/wiki/American_League_West",
+					"teams": [
+						{
+							"name": "Houston Astros",
+							"color": "072854",
+							"url": "http://en.wikipedia.org/wiki/Houston_Astros"
+						},
+						{
+							"name": "Anaheim Angels",
+							"color": "B71234",
+							"url": "http://en.wikipedia.org/wiki/Los_Angeles_Angels_of_Anaheim"
+						},
+						{
+							"name": "Oakland A's",
+							"color": "003831",
+							"url": "http://en.wikipedia.org/wiki/Oakland_Athletics"
+						},
+						{
+							"name": "Seattle Mariners",
+							"color": "006565",
+							"url": "http://en.wikipedia.org/wiki/Seattle_Mariners"
+						},
+						{
+							"name": "Texas Rangers",
+							"color": "BD1021",
+							"url": "http://en.wikipedia.org/wiki/Texas_Rangers_(baseball)"
+						}
+					]
+				},
+				{
+					"name": "Central",
+					"url": "http://en.wikipedia.org/wiki/American_League_Central",
+					"teams": [
+						{
+							"name": "Chicago White Sox",
+							"color": "000000",
+							"url": "http://en.wikipedia.org/wiki/Chicago_White_Sox"
+						},
+						{
+							"name": "Cleveland Indians",
+							"color": "023465",
+							"url": "http://en.wikipedia.org/wiki/Cleveland_Indians"
+						},
+						{
+							"name": "Detroit Tigers",
+							"color": "10293F",
+							"url": "http://en.wikipedia.org/wiki/Detroit_Tigers"
+						},
+						{
+							"name": "Kansas City Royals",
+							"color": "15317E",
+							"url": "http://en.wikipedia.org/wiki/Kansas_City_Royals"
+						},
+						{
+							"name": "Minnesota Twins",
+							"color": "042462",
+							"url": "http://en.wikipedia.org/wiki/Minnesota_Twins"
+						}
+					]
+				},
+				{
+					"name": "East",
+					"url": "http://en.wikipedia.org/wiki/American_League_East",
+					"teams": [
+						{
+							"name": "Baltimore Orioles",
+							"color": "FC4C04",
+							"url": "http://en.wikipedia.org/wiki/Baltimore_Orioles"
+						},
+						{
+							"name": "Toronto Blue Jays",
+							"color": "003DA5",
+							"url": "http://en.wikipedia.org/wiki/Toronto_Blue_Jays"
+						},
+						{
+							"name": "Boston Red Sox",
+							"color": "C60c30",
+							"url": "http://en.wikipedia.org/wiki/Boston_Red_Sox"
+						},
+						{
+							"name": "New York Yankees",
+							"color": "1c2841",
+							"url": "http://en.wikipedia.org/wiki/New_York_Yankees"
+						},
+						{
+							"name": "Tampa Bay Rays",
+							"color": "00285D",
+							"url": "http://en.wikipedia.org/wiki/Tampa_Bay_Rays"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "National League",
+			"url": "http://en.wikipedia.org/wiki/National_League",
+			"divisions": [
+				{
+					"name": "West",
+					"url": "http://en.wikipedia.org/wiki/National_League_West",
+					"teams": [
+						{
+							"name": "Arizona Diamondbacks",
+							"color": "b91134",
+							"url": "http://en.wikipedia.org/wiki/Arizona_Diamondbacks"
+						},
+						{
+							"name": "Colorado Rockies",
+							"color": "333366",
+							"url": "http://en.wikipedia.org/wiki/Colorado_Rockies"
+						},
+						{
+							"name": "Los Angeles Dodgers",
+							"color": "005596",
+							"url": "http://en.wikipedia.org/wiki/Los_Angeles_Dodgers"
+						},
+						{
+							"name": "San Diego Padres",
+							"color": "1C3465",
+							"url": "http://en.wikipedia.org/wiki/San_Diego_Padres"
+						},
+						{
+							"name": "San Francisco Giants",
+							"color": "FB5B1F",
+							"url": "http://en.wikipedia.org/wiki/San_Francisco_Giants"
+						}
+					]
+				},
+				{
+					"name": "Central",
+					"url": "http://en.wikipedia.org/wiki/National_League_Central",
+					"teams": [
+						{
+							"name": "Chicago Cubs",
+							"color": "02599B",
+							"url": "http://en.wikipedia.org/wiki/Chicago_Cubs"
+						},
+						{
+							"name": "Cincinnati Reds",
+							"color": "c6011f",
+							"url": "http://en.wikipedia.org/wiki/Cincinnati_Reds"
+						},
+						{
+							"name": "Milwaukee Brewers",
+							"color": "012143",
+							"url": "http://en.wikipedia.org/wiki/Milwaukee_Brewers"
+						},
+						{
+							"name": "Pittsburgh Pirates",
+							"color": "FFB40B",
+							"url": "http://en.wikipedia.org/wiki/Pittsburgh_Pirates"
+						},
+						{
+							"name": "St Louis Cardinals",
+							"color": "c41e3a",
+							"url": "http://en.wikipedia.org/wiki/St._Louis_Cardinals"
+						}
+					]
+				},
+				{
+					"name": "East",
+					"url": "http://en.wikipedia.org/wiki/National_League_East",
+					"teams": [
+						{
+							"name": "Atlanta Braves",
+							"color": "01487E",
+							"url": "http://en.wikipedia.org/wiki/Atlanta_Braves"
+						},
+						{
+							"name": "Miami Marlins",
+							"color": "F46634",
+							"url": "http://en.wikipedia.org/wiki/Miami_Marlins"
+						},
+						{
+							"name": "New York Mets",
+							"color": "004685",
+							"url": "http://en.wikipedia.org/wiki/New_York_Mets"
+						},
+						{
+							"name": "Philadelphia Phillies",
+							"color": "CA1F2C",
+							"url": "http://en.wikipedia.org/wiki/Philadelphia_Phillies"
+						},
+						{
+							"name": "Washington Nationals",
+							"color": "BA122B",
+							"url": "http://en.wikipedia.org/wiki/Washington_Nationals"
+						}
+					]
+				}
+			]
+		},
+	]
+}
