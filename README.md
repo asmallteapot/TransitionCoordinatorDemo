@@ -10,7 +10,7 @@ Demo of some simple, but powerful, programming techniques on iOS 7:
 
 
 ## License
-Copyright (c) 2014 Bill Williams.
+Copyright (c) 2014 Ellen Teapot.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
